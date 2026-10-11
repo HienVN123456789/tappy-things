@@ -15,7 +15,10 @@ body {
 header, main, footer { max-width: 780px; margin: 0 auto; padding: 0 20px; }
 header { padding-top: 28px; display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: baseline; justify-content: space-between; }
 .brand { font-size: 28px; font-weight: 700; color: var(--teal); text-decoration: none; }
+nav { display: flex; flex-wrap: wrap; align-items: center; }
 nav a { margin-right: 18px; }
+/* official badge file, unmodified; only scaled */
+nav .yt { margin-right: 0; line-height: 0; }
 a { color: #0f6f67; }
 a:focus-visible { outline: 3px solid var(--red); outline-offset: 3px; border-radius: 4px; }
 h1 { font-size: clamp(32px, 6vw, 48px); line-height: 1.15; margin: 32px 0 12px; }
